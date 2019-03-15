@@ -1,0 +1,25 @@
+<com.diplodesigns.huewatch.RoomSettings.Lights.WearableLightItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/lightOn"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="20dp"
+        android:src="@drawable/room_item_off"/>
+    <TextView
+        android:id="@+id/lightName"
+        android:gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed-light"
+        android:lineSpacingExtra="-4sp"
+        android:textColor="@color/textColor"
+        android:textSize="22sp"
+        android:text="Light Name" />
+</com.diplodesigns.huewatch.RoomSettings.Lights.WearableLightItemLayout>

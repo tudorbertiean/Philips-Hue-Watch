@@ -1,0 +1,23 @@
+<com.diplodesigns.huewatch.Main.WearableRoomItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/roomState"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:src="@drawable/room_item_off"/>
+    <TextView
+        android:id="@+id/roomName"
+        android:gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:lineSpacingExtra="-4sp"
+        android:textColor="@color/textColor"
+        android:textSize="22sp"
+        android:text="Room Name" />
+</com.diplodesigns.huewatch.Main.WearableRoomItemLayout>

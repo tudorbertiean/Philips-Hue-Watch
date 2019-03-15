@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_dialog_background"
+    tools:context=".RoomSettings.Lights.LightsFragment">
+
+    <android.support.wearable.view.WearableListView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lightsListView"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/lights_recycler_background"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+</android.support.wearable.view.WearableListView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@mipmap/down_arrow" />
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27ae60</color>
+    <color name="colorPrimaryDark">#27ae60</color>
+    <color name="colorAccent">#27ae60</color>
+    <color name="colorBackground">#ecf0f1</color>
+    <color name="lightOn">#d6b856</color>
+    <color name="roomDelete">#c0392b</color>
+    <color name="lightGlow">#ffe341</color>
+    <color name="Black0Percent">#00000000</color>
+    <color name="CustomDialogBackground">#8b000000</color>
+    <color name="roomDialogBackground">#DADFE1</color>
+</resources>

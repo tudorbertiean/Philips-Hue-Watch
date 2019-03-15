@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CAPABILITY_MOBILE">MOBILE</string>
+    <string name="CAPABILITY_ANDROID_WEAR">WEARABLE</string>
+    <string-array name="android_wear_capabilities">
+        <item>@string/CAPABILITY_ANDROID_WEAR</item>
+    </string-array>
+</resources>

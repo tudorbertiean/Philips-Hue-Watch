@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main.RoomsActivity">
+    <item
+        android:id="@+id/infoBtn"
+        android:orderInCategory="100"
+        android:icon="@mipmap/info"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/initDeleteRoom"
+        android:orderInCategory="100"
+        android:icon="@drawable/trash_can"
+        android:visible="false"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/deleteSelected"
+        android:orderInCategory="100"
+        android:icon="@drawable/trash_open"
+        android:visible="false"
+        app:showAsAction="always"
+        />
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainBackground"
+    android:background="@drawable/custom_dialog_background"
+    tools:context=".Main.MainWatchActivity"
+    tools:deviceIds="wear_round">
+
+    <android.support.wearable.view.WearableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/roomsListView"
+        android:background="@drawable/lights_recycler_background"
+        android:layout_marginTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="40dp"
+        android:layout_marginBottom="30dp">
+
+    </android.support.wearable.view.WearableListView>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/connectingBridgeBar"
+        android:visibility="visible"
+        android:indeterminate="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Error connecting to bridge"
+        android:id="@+id/errConnectTxt"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/refreshImg"
+        android:layout_below="@+id/errConnectTxt"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:src="@mipmap/refresh"
+        android:onClick=""/>
+
+</RelativeLayout>

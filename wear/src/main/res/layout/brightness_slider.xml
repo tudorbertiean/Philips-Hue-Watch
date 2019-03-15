@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/dimnessProgress"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:background="@drawable/brightness_background"
+        android:thumb="@mipmap/seek_thumb"
+        android:thumbOffset="10dp"
+        android:max="254"
+        android:clickable="true" />
+
+</LinearLayout>
